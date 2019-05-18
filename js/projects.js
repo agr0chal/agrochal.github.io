@@ -9,7 +9,7 @@ for(let i=0;i<projects.length;i++){
    newImageBox.setAttribute('class', 'prj-img');
 
    newImage = document.createElement("img");
-   newImage.src = "img/project" + i + ".png";
+   newImage.src = "img/project" + i + ".PNG";
 
    newImageBox.appendChild(newImage);
    /*NAME*/

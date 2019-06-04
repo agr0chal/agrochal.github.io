@@ -149,15 +149,20 @@ h3{
 }
 
 .skill{
-   background-color: #414141;
+   /*background-color: #414141;*/
    font-weight: 300;
    font-size:35px;
-   color: #EBEBEB;
+   /*color: #EBEBEB;*/
+   color: #414141;
    text-align: center;
    padding: 5px;
    margin:auto;
    margin-bottom:20px;
    width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-shadow: 2px 2px 4px rgba(90,90,90,0.25);
 }
 
 #tree{
@@ -325,4 +330,58 @@ footer{
 }
 .con-icon i{
    font-size:32px;
+}
+
+/*-----------------------------------*/
+.skill::before{
+   font-family:devicon;
+   padding-right:6px;
+}
+
+.skill:nth-child(1)::before{
+   color:#f0db4f;
+   content:"\e845";
+}
+
+.skill:nth-child(2)::before{
+   color:#6181b6;
+   content:"\eb71";
+}
+
+.skill:nth-child(3)::before{
+   color:#e54d26;
+   content:"\e7f7";
+}
+.skill:nth-child(4)::before{
+   color:#3d8fc6;
+   content:"\e679";
+}
+
+.skill:nth-child(9)::before{
+   color:#0f0f0f;
+   font-family: "Font Awesome 5 Free";
+   font-weight: 700;
+   content:"\f3cd";
+}
+
+.skill:nth-child(6)::before{
+   color:#00AD32;
+   font-family: "Font Awesome 5 Free";
+   font-weight: 700;
+   content:"\f121";
+}
+
+.skill:nth-child(7)::before{
+   color:#0073BA;
+   content:"\e6e3";
+}
+
+.skill:nth-child(8)::before{
+   color:#9c033a;
+   content:"\e635";
+}
+
+.skill:nth-child(5)::before{
+   color:#00618a;
+   content:"\eb61";
 }

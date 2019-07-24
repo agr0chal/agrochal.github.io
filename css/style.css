@@ -542,6 +542,12 @@ header img{
    .project{
       width:55%;
    }
+   #home-header{
+      height: 63vh;
+   }
+   .home-down{
+      height: 37vh;
+   }
 }
 
 @media (max-width:485px){

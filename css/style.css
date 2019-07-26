@@ -26,6 +26,7 @@
   --html: #e54d26;
   --php: #6181b6;
   --github: #181616;
+  --nodejs: #83CD29;
 }
 
 body{
@@ -256,6 +257,10 @@ header img{
    content:"\eb61";
 }
 
+.nodejs::before{
+   color: var(--nodejs);
+   content: "\eb6a";
+}
 
 .alg::before{
    color:var(--alg);

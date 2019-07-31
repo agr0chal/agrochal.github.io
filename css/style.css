@@ -218,14 +218,14 @@ header img{
 }
 
 .skill::before{
-   font-family:devicon;
+   font-family:devlogos;
    padding-right:6px;
    font-weight:400;
    font-size:35px;
 }
 
 .tech::before{
-   font-family:devicon;
+   font-family:devlogos;
    padding-right:2px;
    font-weight:400;
 }
@@ -237,31 +237,31 @@ header img{
 
 .js::before{
    color:var(--js);
-   content:"\e845";
+   content:"\e901";
 }
 
 .php::before{
    color:var(--php);
-   content:"\eb71";
+   content:"\e907";
 }
 
 .html::before{
    color:var(--html);
-   content:"\e7f7";
+   content:"\e906";
 }
 .css::before{
    color:var(--css);
-   content:"\e679";
+   content:"\e905";
 }
 
 .mysql::before{
    color:var(--mysql);
-   content:"\eb61";
+   content:"\e903";
 }
 
 .nodejs::before{
    color: var(--nodejs);
-   content: "\eb6a";
+   content: "\e904";
 }
 
 .alg::before{
@@ -273,13 +273,19 @@ header img{
 
 .drupal::before{
    color:var(--drupal);
-   content:"\e6e3";
+   content:"\e902";
 }
 
 .cpp::before{
    color:var(--cpp);
-   content:"\e635";
+   content:"\e900";
 }
+
+.electron::before{
+   color:var(--electron);
+   content:"\e908";
+}
+
 
 .rwd::before{
    color:var(--rwd);

@@ -218,14 +218,14 @@ header img{
 }
 
 .skill::before{
-   font-family:devlogos;
+   font-family:vedico;
    padding-right:6px;
    font-weight:400;
    font-size:35px;
 }
 
 .tech::before{
-   font-family:devlogos;
+   font-family:vedico;
    padding-right:2px;
    font-weight:400;
 }
@@ -237,31 +237,31 @@ header img{
 
 .js::before{
    color:var(--js);
-   content:"\e901";
+   content:"\e922";
 }
 
 .php::before{
    color:var(--php);
-   content:"\e907";
+   content:"\e92b";
 }
 
 .html::before{
    color:var(--html);
-   content:"\e906";
+   content:"\e920";
 }
 .css::before{
    color:var(--css);
-   content:"\e905";
+   content:"\e90c";
 }
 
 .mysql::before{
    color:var(--mysql);
-   content:"\e903";
+   content:"\e928";
 }
 
 .nodejs::before{
    color: var(--nodejs);
-   content: "\e904";
+   content: "\e92a";
 }
 
 .alg::before{
@@ -273,17 +273,17 @@ header img{
 
 .drupal::before{
    color:var(--drupal);
-   content:"\e902";
+   content:"\e911";
 }
 
 .cpp::before{
    color:var(--cpp);
-   content:"\e900";
+   content:"\e90a";
 }
 
 .electron::before{
    color:var(--electron);
-   content:"\e908";
+   content:"\e912";
 }
 
 

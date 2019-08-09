@@ -223,11 +223,18 @@ header img{
    font-weight:400;
    font-size:35px;
 }
+.skill span{
+   font-family: 'Lato', sans-serif;
+}
 
 .tech::before{
    font-family:vedico;
    padding-right:2px;
    font-weight:400;
+}
+
+.tech span{
+   font-family: 'Lato', sans-serif;
 }
 
 .project-down .techgrp .tech::before{
@@ -237,31 +244,25 @@ header img{
 
 .js::before{
    color:var(--js);
-   content:"\e922";
 }
 
 .php::before{
    color:var(--php);
-   content:"\e92b";
 }
 
 .html::before{
    color:var(--html);
-   content:"\e920";
 }
 .css::before{
    color:var(--css);
-   content:"\e90c";
 }
 
 .mysql::before{
    color:var(--mysql);
-   content:"\e928";
 }
 
 .nodejs::before{
    color: var(--nodejs);
-   content: "\e92a";
 }
 
 .alg::before{
@@ -273,17 +274,14 @@ header img{
 
 .drupal::before{
    color:var(--drupal);
-   content:"\e911";
 }
 
 .cpp::before{
    color:var(--cpp);
-   content:"\e90a";
 }
 
 .electron::before{
    color:var(--electron);
-   content:"\e912";
 }
 
 
@@ -327,6 +325,7 @@ header img{
 }
 
 .event .techgrp .tech:not(:last-child)::after{
+   font-family: 'Lato', sans-serif;
    content:' •';
    color: #2e2e2e;
 }

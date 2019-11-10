@@ -29,6 +29,7 @@
   --nodejs: #83CD29;
   --electron: #74b1be;
   --p5: #ed225d;
+  --flutter: #39cefd;
 }
 
 body{
@@ -282,6 +283,10 @@ header img{
 
 .electron::before{
    color:var(--electron);
+}
+
+.flutter::before{
+   color:var(--flutter);
 }
 
 

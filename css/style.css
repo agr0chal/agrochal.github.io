@@ -33,7 +33,9 @@ a {
 #main {
   padding: 10px 10px 0px 20px;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
+  height: min-content;
+  width:auto;
 }
 
 #main>#theme_change {
@@ -108,8 +110,10 @@ a {
 }
 
 #aboutme {
-  padding: 10px 10px 0px 20px;
+  padding: 10px 10px 15px 20px;
   color: var(--secondary-dark);
+  width:auto;
+  height:auto;
 }
 
 #aboutme>h3 {

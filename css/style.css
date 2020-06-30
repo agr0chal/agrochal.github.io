@@ -203,31 +203,31 @@ a {
   width: 275px;
 }
 
-#projects>#projects_list>.project>div {
+#projects>#projects_list>.project>.data_box {
   padding: 20px;
   color: var(--secondary-dark);
 }
 
-#projects>#projects_list>.project>div>h2 {
+#projects>#projects_list>.project>.data_box>h2 {
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-#projects>#projects_list>.project>div>h3 {
+#projects>#projects_list>.project>.data_box>h3 {
   font-size: 20px;
   opacity: 0.75;
   margin-bottom: 10px;
 }
 
-#projects>#projects_list>.project>div>h4 {
+#projects>#projects_list>.project>.data_box>h4 {
   font-size: 19px;
   opacity: 0.55;
 }
 
 .preview_box {
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 10px;
+  right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

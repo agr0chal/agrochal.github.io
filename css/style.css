@@ -23,6 +23,7 @@ body {
   background-color: var(--bg-dark);
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
+  width: 100vw;
 }
 
 a {
@@ -32,33 +33,34 @@ a {
 #main {
   padding: 10px 10px 0px 20px;
   position: relative;
+  height: 100vh;
 }
 
-#main>#theme_change{
+#main>#theme_change {
   color: var(--primary-dark);
   font-size: 45px;
   position: absolute;
-  top:10px;
-  right:15px;
+  top: 10px;
+  right: 15px;
   transition: opacity .3s ease-in-out;
 }
 
-#main>#theme_change:hover{
-  cursor:pointer;
+#main>#theme_change:hover {
+  cursor: pointer;
   opacity: 0.75;
 }
 
 #main>h1 {
   color: var(--primary-dark);
   font-size: 70px;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #main>h2 {
   color: var(--secondary-dark);
   font-size: 28px;
   line-height: 34px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #main>#resume {
@@ -84,7 +86,7 @@ a {
   color: var(--primary-dark);
   font-weight: 600;
   font-size: 33px;
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 #icons {
@@ -101,6 +103,24 @@ a {
   transition: color .3s ease-in-out;
 }
 
-#icons>a:hover{
+#icons>a:hover {
   color: var(--primary-dark);
+}
+
+#aboutme {
+  padding: 10px 10px 0px 20px;
+}
+
+#aboutme>h3 {
+  color: var(--primary-dark);
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#aboutme>#desc {
+  padding:10px;
+  color: var(--secondary-dark);
+  line-height: 28px;
+  font-size:20px;
+  font-weight:600;
 }

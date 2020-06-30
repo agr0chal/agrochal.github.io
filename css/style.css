@@ -117,10 +117,22 @@ a {
   margin-bottom: 10px;
 }
 
+#aboutme>h3:not(:first-child) {
+  margin-top: 15px;
+}
+
 #aboutme>#desc {
-  padding:10px;
+  padding: 10px;
   color: var(--secondary-dark);
   line-height: 28px;
-  font-size:20px;
-  font-weight:600;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#aboutme>#skills {
+  padding:10px;
+  color: var(--secondary-dark);
+  font-size: 21px;
+  font-weight: 600;
+  line-height:28px;
 }

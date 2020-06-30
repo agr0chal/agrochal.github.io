@@ -146,6 +146,29 @@ a {
   font-weight: 600;
 }
 
+#aboutme>#achievements>.achievement {
+  background-color: #343434;
+  border-radius:20px;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 0px 0px 2px rgba(132, 132, 132, 0.56);
+}
+
+#aboutme>#achievements>.achievement>h2 {
+  font-size: 21px;
+}
+
+#aboutme>#achievements>.achievement>h3 {
+  font-size:19px;
+  font-weight:400;
+  opacity: 0.75;
+}
+
+#aboutme>#achievements>.achievement>h4 {
+  font-size:18px;
+  font-weight:400;
+  opacity: 0.55;
+}
+
 #aboutme>#achievements>.achievement:not(:first-child) {
   margin-top: 12px;
 }
@@ -215,11 +238,13 @@ a {
   font-size: 20px;
   opacity: 0.75;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 
 #projects>#projects_list>.project>.data_box>h4 {
   font-size: 19px;
   opacity: 0.55;
+  font-weight: 400;
 }
 
 .preview_box {
@@ -281,12 +306,12 @@ a {
 footer {
   background-color: var(--primary-dark);
   color: var(--bg-dark);
-  width:100%;
+  width: 100%;
   padding: 10px 10px 10px 10px;
 }
 
 footer>#icons_row {
-  margin:auto;
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -294,13 +319,13 @@ footer>#icons_row {
 }
 
 footer>#icons_row>a {
-  margin:auto;
+  margin: auto;
   color: var(--bg-dark);
   font-size: 40px;
 }
 
 footer>#copyright {
-  margin-top:5px;
+  margin-top: 5px;
   font-weight: 600;
   font-size: 22px;
   text-align: right;

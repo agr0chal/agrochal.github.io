@@ -109,6 +109,7 @@ a {
 
 #aboutme {
   padding: 10px 10px 0px 20px;
+  color: var(--secondary-dark);
 }
 
 #aboutme>h3 {
@@ -123,16 +124,24 @@ a {
 
 #aboutme>#desc {
   padding: 10px;
-  color: var(--secondary-dark);
   line-height: 28px;
   font-size: 20px;
   font-weight: 600;
 }
 
 #aboutme>#skills {
-  padding:10px;
-  color: var(--secondary-dark);
+  padding: 10px;
   font-size: 21px;
   font-weight: 600;
-  line-height:28px;
+  line-height: 28px;
+}
+
+#aboutme>#achievements {
+  padding: 10px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+#aboutme>#achievements>.achievement:not(:first-child) {
+  margin-top:12px;
 }

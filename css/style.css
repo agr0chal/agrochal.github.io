@@ -1,4 +1,4 @@
-*{
+* {
    padding: 0;
    margin: 0;
    outline: 0;
@@ -7,10 +7,21 @@
 }
 
 :root {
-  --main-dark: #121212;
+  --bg-dark: #121212;
+  --primary-dark: #2DEBD1;
+  --secondary-dark: #E6E6E6;
 }
 
-body{
-   background-color: var(--main-dark);
+body {
+   background-color: var(--bg-dark);
    overflow-x: hidden;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#main > h1 {
+  color: var(--primary-dark);
+}
+
+#main > h2 {
+  color: var(--secondary-dark);
 }

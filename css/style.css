@@ -122,7 +122,7 @@ a {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "WhoAmI" "Skills" "Achievements";
+  grid-template-areas: "WhoAmI""Skills""Achievements";
 }
 
 #whoami_section {
@@ -413,6 +413,10 @@ footer>#copyright {
 }
 
 @media (min-width:800px) {
+  #theme_change {
+    font-size: 47px;
+  }
+
   #main>h1 {
     font-size: 80px;
   }
@@ -477,6 +481,10 @@ footer>#copyright {
 }
 
 @media (min-width:900px) {
+  #theme_change {
+    font-size: 49px;
+  }
+
   #main>h1 {
     font-size: 90px;
   }
@@ -517,6 +525,10 @@ footer>#copyright {
 }
 
 @media (min-width:1000px) {
+  #theme_change {
+    font-size: 51px;
+  }
+
   #main {
     padding: 15px 15px 0px 30px;
   }
@@ -533,16 +545,16 @@ footer>#copyright {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     grid-template-areas: "WhoAmI WhoAmI""Achievements Skills";
-    gap: 15px 15px;
+    gap: 25px 10px;
   }
 
   #achievements_section {
-    justify-self:start;
+    justify-self: start;
   }
 
   #skills_section {
     justify-self: end;
-    padding-right:30px;
+    padding-right: 30px;
   }
 
   .achievement>h2 {
@@ -560,5 +572,4 @@ footer>#copyright {
   .footer_break::after {
     content: "";
   }
-
 }

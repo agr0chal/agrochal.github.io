@@ -24,6 +24,21 @@ a {
 
 #main {
   padding: 10px 10px 0px 20px;
+  position: relative;
+}
+
+#main>#theme_change{
+  color: var(--primary-dark);
+  font-size: 45px;
+  position: absolute;
+  top:10px;
+  right:15px;
+  transition: opacity .3s ease-in-out;
+}
+
+#main>#theme_change:hover{
+  cursor:pointer;
+  opacity: 0.75;
 }
 
 #main>h1 {
@@ -54,7 +69,6 @@ a {
 }
 
 #main>#resume:hover {
-  cursor: pointer;
   opacity: 0.75;
   transition: opacity .3s ease-in-out;
 }

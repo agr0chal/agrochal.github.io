@@ -121,7 +121,7 @@ a {
   height: auto;
 }
 
-#aboutme>h3 {
+.header {
   color: var(--primary-dark);
   font-size: 40px;
   margin-bottom: 10px;
@@ -177,9 +177,9 @@ a {
   border-radius: 20px;
   padding: 10px 15px 10px 15px;
   box-shadow: 0px 0px 2px rgba(132, 132, 132, 0.56);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
   height: 95px;
 }
 
@@ -209,12 +209,6 @@ a {
   width: auto;
   height: auto;
   margin-bottom: 75px;
-}
-
-#projects>h3 {
-  color: var(--primary-dark);
-  font-size: 40px;
-  margin-bottom: 10px;
 }
 
 #projects>h3:not(:first-child) {
@@ -399,5 +393,68 @@ footer>#copyright {
   #main>h2 {
     font-size: 23px;
     margin-bottom: 30px;
+  }
+}
+
+@media (min-width:800px) {
+  #main>h1 {
+    font-size: 80px;
+  }
+
+  #main>h2 {
+    font-size: 25px;
+  }
+
+  #resume {
+    font-size: 27px;
+    width: 203px;
+    height: 52px;
+    line-height: 52px;
+  }
+
+  #icons {
+    font-size: 52px;
+  }
+
+  #contactme {
+    font-size: 35px;
+  }
+
+  .header {
+    font-size:42px;
+  }
+
+  #desc {
+    font-size: 22px;
+  }
+
+  .achievement {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: ". Skills" ". Skills";
+  }
+
+  .achievement>h2 {
+    font-size:23px;
+  }
+
+  .achievement>h3 {
+    font-size:20px;
+  }
+
+  .achievement>h4 {
+    font-size:19px;
+    grid-area: Skills;
+    align-self: center;
+    justify-self: flex-end;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+
+  footer>#icons_row {
+    width: 55%;
+    margin: 0 auto 0 0;
   }
 }

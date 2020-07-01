@@ -628,18 +628,18 @@ footer>#copyright {
   }
 
   #main>h1 {
-    font-size: 125px;
+    font-size: 111px;
   }
 
   #main>h2 {
-    font-size: 37px;
+    font-size: 33px;
   }
 
   #resume {
-    width: 233px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 29px;
+    width: 221px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 28px;
   }
 
   #contactme {
@@ -647,8 +647,8 @@ footer>#copyright {
   }
 
   #icons {
-    padding: 15px;
-    font-size: 64px;
+    padding: 13px;
+    font-size: 61px;
     gap: 7px 15px;
     grid-template-columns: repeat(6, 70px);
     grid-template-rows: 70px;
@@ -701,25 +701,8 @@ footer>#copyright {
     font-size: 57px;
   }
 
-  #main>h1 {
-    font-size: 131px;
-  }
-
-  #main>h2 {
-    font-size: 39px;
-  }
-
-  #resume {
-    height: 62px;
-    line-height: 62px;
-  }
-
   #contactme {
     font-size: 45px;
-  }
-
-  #icons {
-    font-size: 66px;
   }
 
   .header {
@@ -748,12 +731,7 @@ footer>#copyright {
     font-size: 59px;
   }
 
-  #main>h1 {
-    font-size: 137px;
-  }
-
   #main>h2 {
-    font-size: 41px;
     margin-bottom: 40px;
   }
 
@@ -762,7 +740,6 @@ footer>#copyright {
   }
 
   #desc {
-    font-size: 30px;
     padding: 13px;
   }
 
@@ -800,48 +777,35 @@ footer>#copyright {
     padding: 10px 15px 10px 15px;
   }
 
-  footer>#icons_row>a {
-    font-size: 49px;
-  }
-
-  footer>#copyright {
-    font-size: 29px;
+  footer {
+    padding: 10px 30px 10px 10px;
   }
 }
 
 @media (min-width: 1600px) {
   #theme_change {
     font-size: 62px;
+    right: 30px;
   }
 
   #main {
     padding: 25px 15px 0px 60px;
   }
 
-  #main>h1 {
-    font-size: 139px;
-  }
-
-  #main>h2 {
-    font-size: 42px;
-  }
-
-  #resume {
-    height: 65px;
-    line-height: 65px;
-    width: 244px;
-    font-size: 31px;
+  #contact_box {
+    right: 20px;
   }
 
   #contactme {
     font-size: 46px;
   }
 
-  #icons {
-    font-size: 68px;
-    gap: 7px 17px;
-    grid-template-columns: repeat(6, 72px);
-    grid-template-rows: 72px;
+  #main {
+    padding: 25px 25px 10px 60px;
+  }
+
+  #aboutme {
+    padding: 15px 35px 15px 35px;
   }
 
   .header {
@@ -851,6 +815,10 @@ footer>#copyright {
 
   #skills_section {
     padding-right: 60px;
+  }
+
+  #projects {
+    padding: 10px 35px 15px 35px;
   }
 
   .project {
@@ -880,5 +848,25 @@ footer>#copyright {
 
   footer>#icons_row {
     width: 30%;
+  }
+}
+
+@media (min-width: 1750px) {
+  #aboutme {
+    padding: 15px 35px 15px 45px;
+  }
+
+  #projects {
+    padding: 10px 35px 15px 45px;
+  }
+
+  #skills_section {
+    padding-right: 75px;
+  }
+
+  .project {
+    grid-template-columns: auto 485px;
+    margin-bottom: 35px;
+    margin-right: 35px;
   }
 }

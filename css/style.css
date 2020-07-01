@@ -312,7 +312,7 @@ a {
   opacity: 0.4;
 }
 
-.preview_box>a:first-child {
+.preview_box>#preview_button {
   font-weight: 600;
   font-size: 25px;
   margin-right: 15px;
@@ -858,6 +858,7 @@ footer>#copyright {
 @media (min-width: 1750px) {
   #aboutme {
     padding: 15px 35px 15px 45px;
+    grid-template-columns: 50% 45%;
   }
 
   #desc {

@@ -742,3 +742,69 @@ footer>#copyright {
     font-size: 20px;
   }
 }
+
+@media (min-width: 1500px) {
+  #theme_change {
+    font-size: 59px;
+  }
+
+  #main>h1 {
+    font-size: 137px;
+  }
+
+  #main>h2 {
+    font-size: 41px;
+    margin-bottom: 40px;
+  }
+
+  #aboutme {
+    gap: 45px 10px;
+  }
+
+  #desc {
+    font-size: 30px;
+    padding: 13px;
+  }
+
+  #skills {
+    font-size: 22px;
+  }
+
+  .skill_group>.skill {
+    padding: 10px 20px 10px 20px;
+  }
+
+  #projects_list {
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+
+  .project {
+    grid-template-columns: auto 435px;
+    grid-template-rows: 170px;
+    grid-template-areas: "Image DataBox";
+    height: 170px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .project>img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    height: 100%;
+    width: auto;
+  }
+
+  #projects_list>.project>.data_box {
+    padding: 10px 15px 10px 15px;
+  }
+
+  footer>#icons_row>a {
+    font-size: 49px;
+  }
+
+  footer>#copyright {
+    font-size: 29px;
+  }
+}

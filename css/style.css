@@ -593,6 +593,7 @@ footer>#copyright {
 
   #icons {
     font-size: 56px;
+    gap: 7px 12px;
   }
 
   #aboutme {
@@ -602,5 +603,11 @@ footer>#copyright {
 
   #skills_section {
     padding-right: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer>#icons_row {
+    width: 35%;
   }
 }

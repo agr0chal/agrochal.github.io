@@ -20,7 +20,7 @@ async function getProjects() {
 
     projects += `
       <div class="project">
-        <img src="./img/${image}.PNG">
+        <img src="./img/${image}.png">
         <div class="data_box">
           <h2>${name}</h2>
           <h3>${desc}</h3>

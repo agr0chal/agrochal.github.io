@@ -276,7 +276,7 @@ a {
 
 .data_box>h2 {
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .data_box>h3 {
@@ -806,5 +806,79 @@ footer>#copyright {
 
   footer>#copyright {
     font-size: 29px;
+  }
+}
+
+@media (min-width: 1600px) {
+  #theme_change {
+    font-size: 62px;
+  }
+
+  #main {
+    padding: 25px 15px 0px 60px;
+  }
+
+  #main>h1 {
+    font-size: 139px;
+  }
+
+  #main>h2 {
+    font-size: 42px;
+  }
+
+  #resume {
+    height: 65px;
+    line-height: 65px;
+    width: 244px;
+    font-size: 31px;
+  }
+
+  #contactme {
+    font-size: 46px;
+  }
+
+  #icons {
+    font-size: 68px;
+    gap: 7px 17px;
+    grid-template-columns: repeat(6, 72px);
+    grid-template-rows: 72px;
+  }
+
+  .header {
+    font-size: 54px;
+    margin-bottom: 13px;
+  }
+
+  #skills_section {
+    padding-right: 60px;
+  }
+
+  .project {
+    grid-template-columns: auto 455px;
+    grid-template-rows: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+
+  #projects_list>.project>.data_box {
+    padding: 12px 18px 12px 18px;
+  }
+
+  .data_box>h2 {
+    font-size: 32px;
+  }
+
+  .data_box>h3 {
+    font-size: 21px;
+    margin-bottom: 9px;
+  }
+
+  .data_box>h4 {
+    font-size: 20px;
+  }
+
+  footer>#icons_row {
+    width: 30%;
   }
 }

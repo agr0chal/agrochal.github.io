@@ -401,7 +401,7 @@ footer>#copyright {
   }
 
   #icons {
-    grid-template-columns: 60px 60px 60px 60px 60px 60px;
+    grid-template-columns: repeat(6, 60px);
     grid-template-rows: 60px;
   }
 }
@@ -576,6 +576,10 @@ footer>#copyright {
   .footer_break::after {
     content: "";
   }
+
+  footer>#copyright {
+    margin-top: 0px;
+  }
 }
 
 @media (min-width:1100px) {
@@ -609,5 +613,132 @@ footer>#copyright {
 @media (min-width: 1200px) {
   footer>#icons_row {
     width: 35%;
+  }
+}
+
+@media (min-width: 1300px) {
+  #theme_change {
+    font-size: 55px;
+    top: 15px;
+    right: 20px;
+  }
+
+  #main {
+    padding: 15px 15px 0px 40px;
+  }
+
+  #main>h1 {
+    font-size: 125px;
+  }
+
+  #main>h2 {
+    font-size: 37px;
+  }
+
+  #resume {
+    width: 233px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 29px;
+  }
+
+  #contactme {
+    font-size: 43px;
+  }
+
+  #icons {
+    padding: 15px;
+    font-size: 64px;
+    gap: 7px 15px;
+    grid-template-columns: repeat(6, 70px);
+    grid-template-rows: 70px;
+  }
+
+  .header {
+    font-size: 47px;
+  }
+
+  #desc {
+    font-size: 26px;
+  }
+
+  #skills {
+    font-size: 21px;
+  }
+
+  .skill_group>.skill {
+    padding: 9px 18px 9px 18px;
+  }
+
+  .achievement {
+    padding: 12px 18px 12px 18px;
+    height: 105px;
+  }
+
+  .achievement>h2 {
+    font-size: 23px;
+  }
+
+  .achievement>h3 {
+    font-size: 21px;
+  }
+
+  .achievement>h4 {
+    font-size: 19px;
+  }
+
+  footer>#icons_row>a {
+    font-size: 47px;
+  }
+
+  footer>#copyright {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #theme_change {
+    font-size: 57px;
+  }
+
+  #main>h1 {
+    font-size: 131px;
+  }
+
+  #main>h2 {
+    font-size: 39px;
+  }
+
+  #resume {
+    height: 62px;
+    line-height: 62px;
+  }
+
+  #contactme {
+    font-size: 45px;
+  }
+
+  #icons {
+    font-size: 66px;
+  }
+
+  .header {
+    font-size: 49px;
+  }
+
+  #desc {
+    font-size: 29px;
+  }
+
+  .achievement>h2 {
+    font-size: 25px;
+  }
+
+  .achievement>h3 {
+    font-size: 22px;
+  }
+
+  .achievement>h4 {
+    font-size: 20px;
   }
 }

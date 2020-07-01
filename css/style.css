@@ -30,6 +30,14 @@ a {
   text-decoration: none;
 }
 
+noscript {
+  display:block;
+  margin-top: 35px;
+  color: #ff3030;
+  font-weight:600;
+  font-size:21px;
+}
+
 .h1_break::after, .h2_break::after, .footer_break::after {
   content: "\a";
   white-space: pre;

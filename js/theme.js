@@ -10,14 +10,14 @@ window.addEventListener('load', () => {
 });
 
 button.addEventListener('click', () => {
-  if (button.classList.contains('fa-moon')) {
-    button.classList.add('fa-sun');
-    button.classList.remove('fa-moon');
-    localStorage.setItem('theme', 'light');
-  } else {
+  if (button.classList.contains('fa-sun')) {
     button.classList.add('fa-moon');
     button.classList.remove('fa-sun');
-    localStorage.clear();
+    localStorage.setItem('theme', 'light');
+  } else {
+    button.classList.add('fa-sun');
+    button.classList.remove('fa-moon');
+    localStorage.setItem('theme', 'dark');
   }
   document.querySelector('body').classList.toggle('light');
 });

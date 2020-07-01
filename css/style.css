@@ -13,7 +13,7 @@
   --secondary-background: #343434;
   --place: #a3a3a3;
   --skill: #8c8c8c;
-  --preview: #f7f7f7;
+  --preview: #b2b2b2;
   --desc: #c4c4c4;
   --tech: #9f9f9f;
 }
@@ -25,7 +25,7 @@
   --secondary-background: #bdbdbd;
   --place: #474747;
   --skill: #515151;
-  --preview: #0a0a0a;
+  --preview: #242424;
   --desc: #474747;
   --tech: #646464;
 }
@@ -329,13 +329,12 @@ noscript {
 
 .preview_box>a {
   color: var(--preview);
-  opacity: 0.7;
   font-size: 45px;
   transition: opacity .2s ease-in-out;
 }
 
 .preview_box>a:hover {
-  opacity: 0.4;
+  opacity: 0.7;
 }
 
 .preview_box>#preview_button {

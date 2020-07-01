@@ -1,0 +1,35 @@
+[
+  {
+    "name": "vedico",
+    "desc": "Font and svg collection of icons for developers.",
+    "image": "vedico",
+    "preview": "https://vedico-org.github.io/",
+    "github": "https://github.com/vedico-org/vedico",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "CursorRacer",
+    "desc": "Innovative and intuitive way to move your cursor.",
+    "image": "cursorracer",
+    "preview": "",
+    "github": "https://github.com/agrochal/CursorRacer",
+    "tech": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Welit",
+    "desc": "CLI App which displays current weather in a given location.",
+    "image": "welit",
+    "preview": "",
+    "github": "https://github.com/agrochal/Welit",
+    "tech": [
+      "Node.js",
+      "JavaScript"
+    ]
+  }
+]

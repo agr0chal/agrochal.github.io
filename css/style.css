@@ -305,7 +305,7 @@ a {
   color: #FFFFFF;
   opacity: 0.7;
   font-size: 45px;
-  transition: opacity .3s ease-in-out;
+  transition: opacity .2s ease-in-out;
 }
 
 .preview_box>a:hover {
@@ -813,6 +813,10 @@ footer>#copyright {
     margin-bottom: 13px;
   }
 
+  #desc {
+    padding: 13px 17px 13px 13px;
+  }
+
   #skills_section {
     padding-right: 60px;
   }
@@ -856,12 +860,16 @@ footer>#copyright {
     padding: 15px 35px 15px 45px;
   }
 
+  #desc {
+    padding: 13px 80px 13px 13px;
+  }
+
   #projects {
     padding: 10px 35px 15px 45px;
   }
 
   #skills_section {
-    padding-right: 75px;
+    padding-right: 100px;
   }
 
   .project {

@@ -1,0 +1,24 @@
+[{
+    "name": "Junction Stupid Hack 2020",
+    "place": "4th place",
+    "tech": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Google Code-in 2019",
+    "place": "Grand Prize Winner",
+    "tech": [
+      "Drupal",
+      "PHP"
+    ]
+  },
+  {
+    "name": "Google Code-in 2018",
+    "place": "Finalist",
+    "tech": [
+      "Drupal",
+      "PHP"
+    ]
+  }
+]

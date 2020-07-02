@@ -422,7 +422,7 @@ footer>#icons_row>a:hover {
 }
 
 footer>#icons_row>a>i {
-  font-size: 40px;
+  font-size: 39px;
 }
 
 footer>#copyright {
@@ -476,10 +476,6 @@ footer>#copyright {
   #main>h2 {
     font-size: 23px;
     margin-bottom: 30px;
-  }
-
-  footer>#copyright {
-    font-size: 21px;
   }
 }
 
@@ -542,8 +538,12 @@ footer>#copyright {
     justify-self: flex-end;
   }
 
+  footer>#copyright {
+    font-size: 21px;
+  }
+
   footer>#icons_row {
-    width: 55%;
+    width: 50%;
   }
 }
 

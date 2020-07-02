@@ -772,6 +772,7 @@ footer>#copyright {
 @media (min-width: 1500px) {
   #theme_change {
     font-size: 59px;
+    right: 30px;
   }
 
   #main>h2 {
@@ -828,7 +829,6 @@ footer>#copyright {
 @media (min-width: 1600px) {
   #theme_change {
     font-size: 62px;
-    right: 30px;
     top: 10px;
   }
 

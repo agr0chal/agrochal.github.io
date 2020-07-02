@@ -290,7 +290,7 @@ noscript {
   grid-template-rows: 183px auto;
   grid-template-areas: "Image""DataBox";
   width: 275px;
-  height: 480px;
+  height: 465px;
   position: relative;
   box-shadow: 0px 0px 2px rgba(132, 132, 132, 0.56);
   margin-right: 20px;

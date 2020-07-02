@@ -450,6 +450,7 @@ footer>#copyright {
 
   footer>#icons_row {
     width: 60%;
+    margin: 0 auto 0 0;
   }
 
   footer {
@@ -534,7 +535,6 @@ footer>#copyright {
 
   footer>#icons_row {
     width: 55%;
-    margin: 0 auto 0 0;
   }
 }
 

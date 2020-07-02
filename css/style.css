@@ -423,7 +423,7 @@ footer>#icons_row>a>i {
 footer>#copyright {
   margin-top: 5px;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   text-align: right;
 }
 
@@ -447,6 +447,15 @@ footer>#copyright {
     grid-template-columns: repeat(6, 60px);
     grid-template-rows: 60px;
   }
+
+  footer>#icons_row {
+    width: 60%;
+  }
+
+  footer {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 @media (min-width:700px) {
@@ -457,6 +466,10 @@ footer>#copyright {
   #main>h2 {
     font-size: 23px;
     margin-bottom: 30px;
+  }
+
+  footer>#copyright {
+    font-size: 21px;
   }
 }
 
@@ -519,11 +532,6 @@ footer>#copyright {
     justify-self: flex-end;
   }
 
-  footer {
-    flex-direction: row;
-    align-items: center;
-  }
-
   footer>#icons_row {
     width: 55%;
     margin: 0 auto 0 0;
@@ -571,7 +579,7 @@ footer>#copyright {
   }
 
   footer>#icons_row {
-    width: 35%;
+    width: 45%;
   }
 }
 
@@ -654,7 +662,7 @@ footer>#copyright {
 
 @media (min-width: 1200px) {
   footer>#icons_row {
-    width: 30%;
+    width: 35%;
   }
 }
 

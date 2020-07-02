@@ -56,8 +56,13 @@ noscript {
   font-size: 21px;
 }
 
-.h1_break::after, .h2_break::after, .footer_break::after {
+.h1_break::after, .h2_break::after {
   content: "\a";
+  white-space: pre;
+}
+
+.footer_break::after {
+  content: "";
   white-space: pre;
 }
 
@@ -456,6 +461,10 @@ footer>#copyright {
   footer {
     flex-direction: row;
     align-items: center;
+  }
+
+  .footer_break::after {
+    content: "\a";
   }
 }
 

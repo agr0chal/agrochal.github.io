@@ -124,11 +124,15 @@ noscript {
 
 #icons {
   padding: 10px;
-  font-size: 50px;
+  font-size: 0px;
   display: grid;
   grid-template-columns: 60px 60px 60px;
   grid-template-rows: 60px 60px;
   gap: 7px 7px;
+}
+
+#icons>a>i {
+  font-size: 50px;
 }
 
 #icons>a {
@@ -329,8 +333,12 @@ noscript {
 
 .preview_box>a {
   color: var(--preview);
-  font-size: 45px;
+  font-size: 0px;
   transition: opacity .2s ease-in-out;
+}
+
+.preview_box>a>i {
+  font-size: 45px;
 }
 
 .preview_box>a:hover {
@@ -399,6 +407,10 @@ footer>#icons_row {
 footer>#icons_row>a {
   margin: auto;
   color: var(--background);
+  font-size: 0px;
+}
+
+footer>#icons_row>a>i {
   font-size: 40px;
 }
 
@@ -462,7 +474,7 @@ footer>#copyright {
     line-height: 52px;
   }
 
-  #icons {
+  #icons>a>i {
     font-size: 52px;
   }
 
@@ -531,7 +543,7 @@ footer>#copyright {
     line-height: 54px;
   }
 
-  #icons {
+  #icons>a>i {
     font-size: 54px;
   }
 
@@ -621,8 +633,11 @@ footer>#copyright {
   }
 
   #icons {
-    font-size: 56px;
     gap: 7px 12px;
+  }
+
+  #icons>a>i {
+    font-size: 56px;
   }
 
   #aboutme {
@@ -673,10 +688,13 @@ footer>#copyright {
 
   #icons {
     padding: 13px;
-    font-size: 61px;
     gap: 7px 15px;
     grid-template-columns: repeat(6, 70px);
     grid-template-rows: 70px;
+  }
+
+  #icons>a>i {
+    font-size: 61px;
   }
 
   .header {
@@ -712,7 +730,7 @@ footer>#copyright {
     font-size: 19px;
   }
 
-  footer>#icons_row>a {
+  footer>#icons_row>a>i {
     font-size: 47px;
   }
 

@@ -20,7 +20,7 @@ async function getProjects() {
 
     projects += `
       <div class="project">
-        <img src="./img/${image}.PNG">
+        <img src="./img/${image}.PNG" alt="logo "${image}">
         <div class="data_box">
           <h2>${name}</h2>
           <h3>${desc}</h3>
@@ -32,7 +32,7 @@ async function getProjects() {
       projects += `<a href="${preview}" id="preview_button">Preview</a>`;
     }
     if (github != "") {
-      projects += `<a href="${github}"><i class="fab fa-github"></i></a>`;
+      projects += `<a href="${github}">GitHub<i class="fab fa-github"></i></a>`;
     }
     projects += "</div></div>";
   });

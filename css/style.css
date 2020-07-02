@@ -281,7 +281,7 @@ noscript {
   border-radius: 20px;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 180px auto;
+  grid-template-rows: 183px auto;
   grid-template-areas: "Image""DataBox";
   width: 275px;
   height: 480px;
@@ -293,7 +293,7 @@ noscript {
 .project>img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  height: 180px;
+  height: 183px;
   width: 275px;
   grid-area: Image;
 }

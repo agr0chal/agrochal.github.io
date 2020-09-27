@@ -1,4 +1,12 @@
-[{
+[  {
+    "name": "HackZurich 2020",
+    "place": "Finalist",
+    "tech": [
+      "React",
+      "JavaScript"
+    ]
+  },
+  {
     "name": "Junction Stupid Hack 2020",
     "place": "4th place",
     "tech": [
@@ -8,14 +16,6 @@
   {
     "name": "Google Code-in 2019",
     "place": "Grand Prize Winner",
-    "tech": [
-      "Drupal",
-      "PHP"
-    ]
-  },
-  {
-    "name": "Google Code-in 2018",
-    "place": "Finalist",
     "tech": [
       "Drupal",
       "PHP"

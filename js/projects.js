@@ -32,7 +32,7 @@ async function getProjects() {
       projects += `<a href="${preview}" id="preview_button">Preview</a>`;
     }
     if (github != "") {
-      projects += `<a href="${github}">GitHub<i class="fab fa-github"></i></a>`;
+      projects += `<a href="${github}" id="preview_github">GitHub<i class="fab fa-github"></i></a>`;
     }
     projects += "</div></div>";
   });

@@ -12,13 +12,13 @@
     ]
   },
   {
-    "name": "CursorRacer",
-    "desc": "Innovative and intuitive way to move your cursor.",
-    "image": "cursorracer",
-    "preview": "",
-    "github": "https://github.com/agrochal/CursorRacer",
+    "name": "Charpie",
+    "desc": "Web app to easily scan, store, index and share old magazines and newspapers.",
+    "image": "charpie",
+    "preview": "https://devpost.com/software/charpie",
+    "github": "",
     "tech": [
-      "Python"
+      "JavaScript"
     ]
   },
   {
@@ -41,20 +41,17 @@
     "tech": [
       "PHP",
       "MySQL",
-      "JavaScript",
-      "HTML",
-      "CSS"
+      "JavaScript"
     ]
   },
   {
-    "name": "Welit",
-    "desc": "CLI App which displays current weather in a given location.",
-    "image": "welit",
+    "name": "CursorRacer",
+    "desc": "Innovative and intuitive way to move your cursor.",
+    "image": "cursorracer",
     "preview": "",
-    "github": "https://github.com/agrochal/Welit",
+    "github": "https://github.com/agrochal/CursorRacer",
     "tech": [
-      "Node.js",
-      "JavaScript"
+      "Python"
     ]
   }
 ]

@@ -1,18 +1,18 @@
 [  {
-    "name": "HackZurich 2020",
-    "place": "Finalist",
+    "name": "HackZurich 2021",
+    "place": "Sponsor Prize Winner",
     "tech": [
-      "React",
       "JavaScript"
     ]
   },
   {
-    "name": "Junction Stupid Hack 2020",
-    "place": "4th place",
-    "tech": [
-      "Python"
-    ]
-  },
+      "name": "HackZurich 2020",
+      "place": "Finalist",
+      "tech": [
+        "React",
+        "JavaScript"
+      ]
+    },
   {
     "name": "Google Code-in 2019",
     "place": "Grand Prize Winner",
